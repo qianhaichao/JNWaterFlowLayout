@@ -12,6 +12,8 @@
 		CAD29F722170A49C000A1F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD29F702170A49C000A1F51 /* Main.storyboard */; };
 		CAD29F742170A49D000A1F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD29F732170A49D000A1F51 /* Assets.xcassets */; };
 		CAD29F772170A49D000A1F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD29F752170A49D000A1F51 /* LaunchScreen.storyboard */; };
+		CAD29F802170A4C9000A1F51 /* JNWaterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD29F7F2170A4C9000A1F51 /* JNWaterFlowLayout.swift */; };
+		CAD29F822170A7DD000A1F51 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD29F812170A7DD000A1F51 /* Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CAD29F732170A49D000A1F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD29F762170A49D000A1F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAD29F782170A49D000A1F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD29F7F2170A4C9000A1F51 /* JNWaterFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNWaterFlowLayout.swift; sourceTree = "<group>"; };
+		CAD29F812170A7DD000A1F51 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,22 @@
 		CAD29F6B2170A49C000A1F51 /* JNWaterFallLayout */ = {
 			isa = PBXGroup;
 			children = (
+				CAD29F7E2170A4AB000A1F51 /* JNWaterFallLayout */,
 				CAD29F6C2170A49C000A1F51 /* AppDelegate.swift */,
 				CAD29F6E2170A49C000A1F51 /* ViewController.swift */,
 				CAD29F702170A49C000A1F51 /* Main.storyboard */,
 				CAD29F732170A49D000A1F51 /* Assets.xcassets */,
 				CAD29F752170A49D000A1F51 /* LaunchScreen.storyboard */,
 				CAD29F782170A49D000A1F51 /* Info.plist */,
+				CAD29F812170A7DD000A1F51 /* Const.swift */,
+			);
+			path = JNWaterFallLayout;
+			sourceTree = "<group>";
+		};
+		CAD29F7E2170A4AB000A1F51 /* JNWaterFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CAD29F7F2170A4C9000A1F51 /* JNWaterFlowLayout.swift */,
 			);
 			path = JNWaterFallLayout;
 			sourceTree = "<group>";
@@ -135,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD29F802170A4C9000A1F51 /* JNWaterFlowLayout.swift in Sources */,
+				CAD29F822170A7DD000A1F51 /* Const.swift in Sources */,
 				CAD29F6F2170A49C000A1F51 /* ViewController.swift in Sources */,
 				CAD29F6D2170A49C000A1F51 /* AppDelegate.swift in Sources */,
 			);
