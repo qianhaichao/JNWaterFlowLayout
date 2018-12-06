@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA2B3E6C21B8BA9E005FB2B3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B3E6B21B8BA9E005FB2B3 /* Person.swift */; };
 		CAD29F6D2170A49C000A1F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD29F6C2170A49C000A1F51 /* AppDelegate.swift */; };
 		CAD29F6F2170A49C000A1F51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD29F6E2170A49C000A1F51 /* ViewController.swift */; };
 		CAD29F722170A49C000A1F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD29F702170A49C000A1F51 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA2B3E6B21B8BA9E005FB2B3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CAD29F692170A49C000A1F51 /* JNWaterFallLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNWaterFallLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD29F6C2170A49C000A1F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD29F6E2170A49C000A1F51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				CAD29F752170A49D000A1F51 /* LaunchScreen.storyboard */,
 				CAD29F782170A49D000A1F51 /* Info.plist */,
 				CAD29F812170A7DD000A1F51 /* Const.swift */,
+				CA2B3E6B21B8BA9E005FB2B3 /* Person.swift */,
 			);
 			path = JNWaterFallLayout;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2B3E6C21B8BA9E005FB2B3 /* Person.swift in Sources */,
 				CAD29F802170A4C9000A1F51 /* JNWaterFlowLayout.swift in Sources */,
 				CAD29F822170A7DD000A1F51 /* Const.swift in Sources */,
 				CAD29F6F2170A49C000A1F51 /* ViewController.swift in Sources */,
